@@ -28,3 +28,16 @@ Mocht je er zelf niet uitkomen, dan tref je hieronder het stappenplan dat je kun
 * gebruik hiervoor een String methode
 
 */
+
+let string = "Oost west thuis best";
+
+function replaceSpaceWithDash( param ) {
+    for ( let i = 0; i < string.length; i++ ) {
+        if ( string.charAt(i) === " " ) {
+            string = string.replace(string.charAt(i), "-")
+        }
+    }
+    return string
+}
+
+console.log( replaceSpaceWithDash( string ) )
