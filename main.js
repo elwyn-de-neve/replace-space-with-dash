@@ -31,15 +31,15 @@ Mocht je er zelf niet uitkomen, dan tref je hieronder het stappenplan dat je kun
 
 */
 
-let string = "Oost west thuis best";
+let argument = "Oost west thuis best";
 
 function replaceSpaceWithDash( param ) {
-    for ( let i = 0; i < string.length; i++ ) {
-        if ( string.charAt(i) === " " ) {
-            string = string.replace(string.charAt(i), "-")
+    for ( let i = 0; i < param.length; i++ ) {
+        if ( param[i] === " " ) {
+            param = param.replace(" ", "-")
         }
     }
-    return string
+    return param
 }
 
-console.log( replaceSpaceWithDash( string ) )
+console.log( replaceSpaceWithDash( argument ) )
