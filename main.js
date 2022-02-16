@@ -20,10 +20,10 @@ Probeer eerst voor jezelf te bedenken welke stappen je nodig hebt.
 Mocht je er zelf niet uitkomen, dan tref je hieronder het stappenplan dat je kunt gebruiken:
 
 1. Maak de variable aan met de waarde "Oost west thuis best" en zorg dat we deze later kunnen overschrijven
-2. Creeer een functie genaamd replaceSpaceWithDash
+2. Creëer een functie genaamd replaceSpaceWithDash
 3. Loop door de lengte van het String object heen (Een String object heeft net als een array een length property) *
 4. Check of het huidige (i) karakter overeenkomt met een spatie *
-5. Als dit waar is, vervang de huidige (i) spatie met een streeptje en sla deze op in de variabele *
+5. Als dit waar is, vervang de huidige (i) spatie met een streepje en sla deze op in de variabele *
 6. Return de uitkomst van de functie
 7. Log de functie en geef de variabele mee als argument (tijdens het aanroepen)
 
