@@ -1,4 +1,6 @@
 /*
+Lesopdracht 1: Replace " " with "-"
+
 De oplettende student heeft gemerkt dat er een foutje in edHub staat.
 Bij de String methode replace staat dat alle instanties van de gespecificeerde karakters worden vervangen met de nieuwe waarde.
 
